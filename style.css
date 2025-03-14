@@ -21,7 +21,7 @@ body {
 .header-list {
   display: flex;
   align-items: center;
-  margin-right: 32px;
+  margin-right: 15px;
 }
 a {
   color: #000000;
@@ -78,7 +78,7 @@ a {
   gap: 180px;
 }
 .column-1 {
-  width: 500px;
+  width: 120px;
   height: auto;
   padding-top: 92px;
   padding-left: 62px;
