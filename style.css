@@ -50,12 +50,11 @@ a {
   font-family: "Poppins", "sans-serif";
   background-color: #ffffff;
   border: 5px solid #d2b7ff;
-  margin-right: 40px;
   border-radius: 180px;
   padding-top: 8px;
   padding-bottom: 10px;
-  padding-left: 56px;
-  padding-right: 55px;
+  padding-left: 90px;
+  padding-right: 90px;
 }
 .header-btn-two {
   color: #000000;
@@ -67,8 +66,8 @@ a {
   border-radius: 180px;
   padding-top: 8px;
   padding-bottom: 10px;
-  padding-left: 56px;
-  padding-right: 55px;
+  padding-left: 90px;
+  padding-right: 90px;
   padding-right: 37px;
 }
 
@@ -78,8 +77,6 @@ a {
   gap: 180px;
 }
 .column-1 {
-  width: 120px;
-  height: auto;
   padding-top: 92px;
   padding-left: 62px;
 }
@@ -88,7 +85,7 @@ a {
   padding-right: 197px;
 }
 .column-text {
-  font-size: 36px;
+  font-size: 42px;
   font-weight: normal;
   margin-bottom: 92px;
   font-family: "Lato", "sans-serif";
@@ -96,7 +93,7 @@ a {
 }
 .coulumn-btn {
   color: #000000;
-  font-size: 36px;
+  font-size: 40px;
   font-weight: normal;
   font-family: "Montserrat", "sans-serif";
   line-height: 0.25%;
@@ -121,8 +118,19 @@ a {
   background-color: black;
   transition: 0.3s;
 }
-
-@media screen and (max-width: 1024px) {
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+.burger-menu span {
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  transition: 0.3s;
+}
+@media (max-width: 1024px) {
   .header-list {
     display: none;
     flex-direction: column;
@@ -142,14 +150,12 @@ a {
   }
   .header-btn-one,
   .header-btn-two {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-right: 2px;
+    display: flex;
+    gap: 20px;
   }
   .header-column {
     flex-direction: column;
     align-items: center;
-    gap: 2px;
   }
   .column-1 img {
     max-width: 90%;
@@ -157,25 +163,15 @@ a {
   }
   .column-2 {
     text-align: center;
-    margin-left: 150px;
+    padding: 20px;
   }
   .benefits-includes {
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-  .section-3 {
-    display: flex;
-    flex-direction: column;
-    background-color: #f0e7ff;
-    width: 1100px;
-    position: relative;
-    left: 21px;
-    right: 13px;
+    gap: 40px;
   }
 }
 
-/* ДЛЯ МОБІЛЬНИХ ПРИСТРОЇВ (МЕНШЕ 768px) */
-@media (max-width: 768px) {
+@media (max-width: 668px) {
   .header-list {
     display: none;
     flex-direction: column;
@@ -195,7 +191,8 @@ a {
   }
   .header-btn-one,
   .header-btn-two {
-    display: none;
+    display: flex;
+    gap: 20px;
   }
   .header-column {
     flex-direction: column;
@@ -224,63 +221,58 @@ a {
     text-align: center;
   }
 }
-
-@media screen and (min-width: 1600px) and (max-width: 2500px) {
+@media screen and (min-width: 1300px) {
   .header {
-    margin: 0 auto;
     padding: 20px;
+    max-width: 1200px;
   }
   .header-logo {
-    width: 180px;
+    padding-left: 20px;
     margin-right: auto;
   }
   .header-list {
     gap: 50px;
-  }
-  .header-li-underline {
-    font-size: 28px;
-    margin-right: 60px;
-  }
-  .header-li {
-    font-size: 28px;
-    margin-right: 80px;
-  }
-  .header-btn-one {
-    font-size: 28px;
-  }
-  .header-btn-two {
-    font-size: 28px;
   }
   .header-column {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .column-image {
-    width: 820px;
-  }
-  .column-text {
-    font-size: 52px;
-  }
-  .coulumn-btn {
-    font-size: 52px;
-    padding: 90px;
-    padding-right: 90px;
-    padding-left: 90px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
   .benefits-includes {
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 50px;
+    gap: 50px;
   }
   .section-3 {
-    max-width: 100%;
-    padding-right: 340px;
-    font-size: 48px;
+    width: 1100px;
+    padding: 40px;
   }
 }
 
+/*2 Секція */
+
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 300px;
+  align-items: center;
+}
+.section2-benefits {
+  font-size: 36px;
+  margin-bottom: 153px;
+  line-height: 0.25%;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+}
+
+.benefits-includes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 163px;
+  row-gap: 52px;
+  justify-content: center;
+  padding-left: 220px;
+  padding-right: 220px;
+  margin-bo
 /*2 Секція */
 
 .section-2 {
