@@ -3,7 +3,7 @@ body {
   padding: 0;
   max-width: 100%;
   box-sizing: border-box;
-  background-image: url(src/img/Секція\ No.1.png);
+  background-image: url(Секція\ No.1.png);
   background-repeat: no-repeat;
 }
 /*1 Секція */
@@ -21,8 +21,7 @@ body {
 .header-list {
   display: flex;
   align-items: center;
-  margin-right: 53px;
-  gap: 53px;
+  margin-right: 32px;
 }
 a {
   color: #000000;
@@ -79,6 +78,8 @@ a {
   gap: 180px;
 }
 .column-1 {
+  width: 500px;
+  height: auto;
   padding-top: 92px;
   padding-left: 62px;
 }
@@ -87,7 +88,7 @@ a {
   padding-right: 197px;
 }
 .column-text {
-  font-size: 42px;
+  font-size: 36px;
   font-weight: normal;
   margin-bottom: 92px;
   font-family: "Lato", "sans-serif";
@@ -95,7 +96,7 @@ a {
 }
 .coulumn-btn {
   color: #000000;
-  font-size: 40px;
+  font-size: 36px;
   font-weight: normal;
   font-family: "Montserrat", "sans-serif";
   line-height: 0.25%;
@@ -398,7 +399,7 @@ body:not(:has(.section-3 p)) .section-3 p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(src/img/Group\ 7.png);
+  background-image: url(Group\ 7.png);
   transform: translateY(120px);
   transition: opacity 1s ease-out, transform 1s ease-out;
   background-position: bottom;
