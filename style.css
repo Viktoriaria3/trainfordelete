@@ -16,12 +16,12 @@ body {
 }
 .header-logo {
   margin-left: 0;
-  margin-right: 532px;
+  margin-right: auto;
 }
 .header-list {
   display: flex;
   align-items: center;
-  margin-right: 30px;
+  gap: 30px;
 }
 a {
   color: #000000;
