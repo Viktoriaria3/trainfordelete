@@ -162,7 +162,15 @@ a {
   }
 }
 
-@media (max-width: 668px) {
+
+@media (max-width: 700px) {
+  .header {
+    background-image: none;
+  }
+  .header-logo {
+    margin-left: 0;
+    margin-right: auto;
+  }
   .header-list {
     display: none;
     flex-direction: column;
@@ -182,7 +190,10 @@ a {
   }
   .header-btn-one,
   .header-btn-two {
-    display: none;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 20px;
   }
   .header-column {
     flex-direction: column;
@@ -196,8 +207,11 @@ a {
   .column-2 {
     padding: 20px;
   }
+  .section-2 {
+    padding-left: 280px;
   .benefits-includes {
     grid-template-columns: 1fr;
+    padding-left: 120px;
     gap: 20px;
   }
   .section-3 {
