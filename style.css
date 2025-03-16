@@ -147,11 +147,11 @@ a {
     padding: 20px;
   }
   .header-logo {
-    padding-left: 20px;
+    padding-left: 120px;
     margin-right: auto;
   }
   .header-list {
-    gap: 50px;
+    gap: 30px;
   }
   .header-btn-one .header-btn-two {
     padding-right: 60px;
@@ -176,12 +176,19 @@ a {
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
   }
-  .section3 {
+  .section-3 {
+    position: none;
+    max-width: 1024px
+  .section-4 {
+    padding-left: 220px;
     background-image: url(src/img/tulips-tablet.png);
   }
 }
 
 @media (max-width: 700px) {
+  .header {
+    background-image: URL("phone-header.png")
+  }
   .header-logo {
     margin-left: 0;
     margin-right: auto;
@@ -206,6 +213,8 @@ a {
   .header-btn-one,
   .header-btn-two {
     display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
     gap: 20px;
   }
   .header-column {
@@ -220,8 +229,11 @@ a {
   .column-2 {
     padding: 20px;
   }
+  .section-2 {
+    padding-left: 280px;
   .benefits-includes {
     grid-template-columns: 1fr;
+    padding-left: 120px;
     gap: 20px;
   }
   .section-3 {
