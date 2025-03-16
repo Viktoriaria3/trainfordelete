@@ -24,94 +24,71 @@
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
-  <body>
+<body>
     <header class="header">
-      <img src="logo.png" class="header-logo" />
-      <ul class="header-list">
-        <li class="header-li-underline"><a href="">Головна</a></li>
-        <li class="header-li"><a href="">Про нас</a></li>
-        <button class="header-btn-one">Увійти</button>
-        <button class="header-btn-two">Додати клас</button>
-      </ul>
-      <div class="burger-menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+        <img src="logo.png" alt="Логотип" class="header-logo">
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#">Головна</a></li>
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#benefits">Переваги</a></li>
+                <li><a href="#reviews">Відгуки</a></li>
+            </ul>
+        </nav>
+        <div class="header-buttons">
+            <button class="login-btn">Увійти</button>
+            <button class="add-class-btn">Додати клас</button>
+        </div>
+        <div class="burger-menu">
+            <span></span><span></span><span></span>
+        </div>
     </header>
-    <section class="section-1">
-      <div class="header-column">
-        <div class="column-1">
-          <img class="column-image" src="image-header.png" />
+    
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Навчайся ефективно та зручно разом з нами!</h1>
+            <button class="try-btn">Спробувати</button>
         </div>
-        <div class="column-2">
-          <h2 class="column-text">
-            Навчайся ефективно та зручно разом з нами!
-          </h2>
-          <button class="coulumn-btn">Спробувати</button>
+        <div class="hero-image">
+            <img src="image-header.png" alt="Навчання">
         </div>
-      </div>
     </section>
-    <section class="section-2">
-      <h2 class="section2-benefits">Переваги</h2>
-      <div class="benefits-includes">
-        <div class="include-one">
-          <img class="benefits-img" src="svg1.png" alt="image1" />
-          <p class="section2-paragraph">Навчання в ігровій формі</p>
+    
+    <section id="benefits" class="benefits">
+        <h2>Переваги</h2>
+        <div class="benefits-container">
+            <div class="benefit">
+                <img src="svg1.png" alt="Ігрове навчання">
+                <p>Навчання в ігровій формі</p>
+            </div>
+            <div class="benefit">
+                <img src="svg2.png" alt="Гнучкість">
+                <p>Гнучкість та доступність</p>
+            </div>
+            <div class="benefit">
+                <img src="svg3.png" alt="Планери">
+                <p>Планери для навчання</p>
+            </div>
         </div>
-        <div class="include-two">
-          <img class="benefits-img" src="svg2.png" alt="image1" />
-          <p class="section2-paragraph">Гнучкість та доступність</p>
-        </div>
-        <div class="include-three">
-          <img class="benefits-img" src="svg3.png" alt="image1" />
-          <p class="section2-paragraph">Планери для навчання</p>
-        </div>
-        <div class="include-four">
-          <img class="benefits-img" src="svg4.png" alt="image1" />
-          <p class="section2-paragraph">Безкоштовні матеріали</p>
-        </div>
-        <div class="include-five">
-          <img class="benefits-img" src="svg5.png" alt="image1" />
-          <p class="section2-paragraph">Спільнота та підтримка</p>
-        </div>
-        <div class="include-six">
-          <img class="benefits-img" src="svg6.png" alt="image1" />
-          <p class="section2-paragraph">Персональний акаунт</p>
-        </div>
-      </div>
     </section>
-    <section class="section-3">
-      <p class="section3-benefit-one">5000+ учнів вже навчаються з нами!</p>
-      <p class="section3-benefit-two">
-        100+ безкоштовних навчальних матеріалів!
-      </p>
-      <p class="section3-benefit-three">Досягай результатів у 2 рази швидше!</p>
+    
+    <section id="reviews" class="reviews">
+        <h2>Відгуки користувачів</h2>
+        <div class="review">
+            <h3>Анна, 24 роки</h3>
+            <img src="stars-review.png" alt="Рейтинг">
+            <p>"Це ідеальний сайт для навчання! Дуже зручно та ефективно!"</p>
+        </div>
     </section>
+    
+    <footer class="footer">
+        <p>&copy; 2025 Освітній сайт. Всі права захищені.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
 
-    <section class="section-4">
-      <h2 class="reviews-sec4">Відгуки користувачів</h2>
-      <div class="reviews-box">
-        <div class="info-section-4">
-          <h2 class="info-name">Анна, 24 роки</h2>
-          <img class="info-rate" src="stars-review.png" />
-          <p class="info-text">
-            "Це ідеальний сайт для тих, хто хоче навчатися без стресу! Я обожнюю
-            інтерактивні завдання – вони допомагають краще запам’ятовувати
-            інформацію. А ще зручний планер – тепер я не забуваю про важливі
-            дедлайни. Рекомендую всім!"
-          </p>
-        </div>
-        <div class="info-account-img">
-          <img class="account-image" src="Account.png" />
-        </div>
-      </div>
-      <div class="list-stylish">
-        <img class="first-thing" src="Group 1.png" />
-        <h2 class="list-text">Подивитись повний список відгуків</h2>
-        <img class="second-thing" src="Group 2.png" />
-      </div>
-    </section>
     <script src="script.js"></script>
   </body>
 </html>
