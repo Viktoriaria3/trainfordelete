@@ -166,6 +166,7 @@ a {
 @media (max-width: 700px) {
   .header {
     background-image: none;
+    background: unset;
   }
   .header-logo {
     margin-left: 0;
