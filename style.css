@@ -129,39 +129,21 @@ a {
   background-color: black;
   transition: 0.3s;
 }
-@media (min-width: 1025px) {
-  .header-logo {
-    padding: 20px;
-    margin-right: auto;
-  }
-  .header-list {
-    gap: 60px;
-  }
-  .header-btn-one .header-btn-two {
-    padding-right: 60px;
-    padding-left: 60px;
-  }
-}
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .header {
-    background-image: none;
     padding: 20px;
   }
-  .header-logo {
-    padding-left: 120px;
-    margin-right: auto;
-  }
   .header-list {
-    gap: 30px;
+    gap: 15px;
   }
-  .header-btn-one .header-btn-two {
-    padding-right: 60px;
-    padding-left: 60px;
+  .header-btn-one,
+  .header-btn-two {
+    padding: 6px 12px;
+    font-size: 18px;
   }
   .header-column {
     flex-direction: column;
     align-items: center;
-    gap: 2px;
   }
   .column-1 img {
     max-width: 90%;
@@ -169,8 +151,6 @@ a {
   }
   .column-2 {
     text-align: center;
-    gap: 2px;
-    padding: auto;
     padding: 20px;
   }
   .benefits-includes {
@@ -178,22 +158,11 @@ a {
     gap: 40px;
   }
   .section-3 {
-    position: none;
-    max-width: 1024px
-  .section-4 {
-    padding-left: 220px;
-    background-image: url(src/img/tulips-tablet.png);
+
   }
 }
 
-@media (max-width: 700px) {
-  .header {
-    background-image: none;
-  }
-  .header-logo {
-    margin-left: 0;
-    margin-right: auto;
-  }
+@media (max-width: 668px) {
   .header-list {
     display: none;
     flex-direction: column;
@@ -213,10 +182,7 @@ a {
   }
   .header-btn-one,
   .header-btn-two {
-    display: flex;
-    padding-left: 30px;
-    padding-right: 30px;
-    gap: 20px;
+    display: none;
   }
   .header-column {
     flex-direction: column;
@@ -230,11 +196,8 @@ a {
   .column-2 {
     padding: 20px;
   }
-  .section-2 {
-    padding-left: 280px;
   .benefits-includes {
     grid-template-columns: 1fr;
-    padding-left: 120px;
     gap: 20px;
   }
   .section-3 {
@@ -256,26 +219,18 @@ a {
     padding-left: 20px;
     margin-right: auto;
   }
-  .header-list {
-    gap: 50px;
-  }
   .header-column {
     display: flex;
     justify-content: space-between;
-    gap: 230px;
     align-items: center;
-  }
-  .column-1 {
-    font-size: 48px;
   }
   .benefits-includes {
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
   }
   .section-3 {
-    width: 100%;
-    margin: 0;
-
+    width: 1100px;
+    padding: 40px;
   }
 }
 
