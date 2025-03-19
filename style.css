@@ -200,7 +200,7 @@
     justify-content: space-between;
     row-gap: 92px;
   }
-img {
+    .main_second--cards-image {
     width: 159px;
 }
   .main_second--cards--el {
