@@ -200,8 +200,8 @@
     justify-content: space-between;
     row-gap: 92px;
   }
-    .main_second--cards-image {
-    width: 159px;
+.main_second--cards-image {
+    width: 150px;
 }
   .main_second--cards--el {
     padding-left: 120px;
