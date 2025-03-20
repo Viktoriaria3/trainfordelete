@@ -382,6 +382,9 @@
     padding: 90px;
     gap: 50px;
   }
+    .main_third--text {
+    font-size: 26px;
+  }
     .main_first .main_container {
       justify-content: center;
     }
@@ -397,6 +400,9 @@
     .main_third--content {
     margin-left: 90px;
     gap: 50px;
+  }
+    .main_third--text {
+    font-size: 26px;
   }
   }
   
@@ -417,6 +423,9 @@
     .main_fourth--controllers--text::after {
       display: none;
     }
+    .main_third--text {
+    font-size: 26px;
+  }
   }
   
   @media screen and (max-width: 530px) {
@@ -445,7 +454,7 @@
     }
   
     .main_third--text {
-      font-size: 32px;
+      font-size: 26px;
     }
   }
   
@@ -459,6 +468,9 @@
     .main_fourth--icon {
       display: none;
     }
+    .main_third--text {
+    font-size: 22px;
+  }
           .main_first--title {
       margin-bottom: 20px;
         font-size: 22px
@@ -480,6 +492,9 @@
     .main_third {
       margin-bottom: 106px;
     }
+    .main_third--text {
+    font-size: 22px;
+  }
     .main-fourth {
       background-image: URL("tulips-phone.png");
     }
