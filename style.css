@@ -56,7 +56,7 @@
     font-size: 24px;
     line-height: 100%;
     letter-spacing: 0%;
-    border: 5px solid ##f0e7ff;
+    border: 5px solid #f0e7ff;
     background-color: #ffffff;
     color: #543f6b;
     border-radius: 180px;
@@ -197,6 +197,7 @@
   .main_second--cards {
     width: 100%;
     display: grid;
+    text-align: center;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
     row-gap: 92px;
@@ -205,8 +206,8 @@
     width: 65px;
 }
 .main_second--cards--el {
-    padding-left: 20px;
-    padding-right: 12px;
+    padding-left: 120px;
+    padding-right: 90px;
 }
   
   .main_second--cards--el--text {
