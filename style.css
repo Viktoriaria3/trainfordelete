@@ -411,12 +411,11 @@
     .main_first--title {
       text-align: center;
       width: 100%;
-        font-size: 16px
+        font-size: 22px
     }
   
     .main_first--btn {
       width: 100%;
-        font-size: 16px;
     }
   
     .main_third--content {
@@ -438,21 +437,15 @@
     }
           .main_first--title {
       margin-bottom: 20px;
-        font-size: 16px
+        font-size: 22px
     }
-      .main_first--btn {
-          font-size: 16px;
-      }
   }
   
   @media screen and (max-width: 336px) {
           .main_first--title {
       margin-bottom: 20px;
-        font-size: 16px
+        font-size: 22px
     }
-      .main_first--btn {
-          font-size: 16px;
-      }
     .main_second {
       padding-top: 200px;
       padding-bottom: 100px;
