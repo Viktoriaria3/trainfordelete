@@ -386,6 +386,9 @@
   }
   
   @media screen and (max-width: 600px) {
+      .header {
+          margin-bottom: 120px;
+      }
           .main_first--title {
       margin-bottom: 20px;
         font-size: 16px
@@ -402,6 +405,9 @@
   }
   
   @media screen and (max-width: 530px) {
+            .header {
+          margin-bottom: 120px;
+      }
     .main-fourth {
       background-image: URL("tulips-phone.png");
     }
@@ -429,6 +435,9 @@
   }
   
   @media screen and (max-width: 435px) {
+            .header {
+          margin-bottom: 120px;
+      }
     .main-fourth {
       background-image: URL("tulips-phone.png");
     }
@@ -442,6 +451,9 @@
   }
   
   @media screen and (max-width: 336px) {
+            .header {
+          margin-bottom: 120px;
+      }
           .main_first--title {
       margin-bottom: 20px;
         font-size: 22px
