@@ -195,17 +195,18 @@
   }
   
   .main_second--cards {
-      width: 100%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
     row-gap: 92px;
   }
 .main_second--cards-image {
-    width: 110px;
+    width: 65px;
 }
-.main_second--cards-image {
-    padding-left: 120px;
+.main_second--cards--el {
+    padding-left: 20px;
+    padding-right: 12px;
 }
   
   .main_second--cards--el--text {
