@@ -56,9 +56,9 @@
     font-size: 24px;
     line-height: 100%;
     letter-spacing: 0%;
-    border: 5px solid #d2b7ff;
+    border: 5px solid ##eee4ff;
     background-color: #ffffff;
-    color: #FCF4FF;
+    color: #543f6b;
     border-radius: 180px;
     height: 54px;
     cursor: pointer;
@@ -154,7 +154,7 @@
     width: 450px;
     height: 108px;
     border-radius: 90px;
-    background-color: #eadcff;
+    background-color: #eee4ff;
     cursor: pointer;
     border: 0;
     font-family: 'Montserrat' 'sans-serif';
