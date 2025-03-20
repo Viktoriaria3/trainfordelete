@@ -57,8 +57,8 @@
     line-height: 100%;
     letter-spacing: 0%;
     border: 5px solid #d2b7ff;
-    background-color: #5C899D;
-    color: black;
+    background-color: #ffffff;
+    color: #FCF4FF;
     border-radius: 180px;
     height: 54px;
     cursor: pointer;
@@ -66,9 +66,9 @@
   }
   
   .header_right--nav--btn:hover {
-    background: #d2b7ff;
-      font-weight: medium;
-    color: #d2b7ff;
+    background-color: #d2b7ff;
+    font-weight: medium;
+    color: #222222;
   }
   
   .header_right--nav--btn:first-child {
