@@ -52,12 +52,12 @@
     justify-content: center;
     align-items: center;
     font-family: 'Poppins', 'sans-serif';
-    font-weight: 400;
+    font-weight: medium;
     font-size: 24px;
     line-height: 100%;
     letter-spacing: 0%;
     border: 5px solid #d2b7ff;
-    background-color: #ffffff;
+    background-color: #5C899D;
     color: black;
     border-radius: 180px;
     height: 54px;
@@ -67,7 +67,8 @@
   
   .header_right--nav--btn:hover {
     background: #d2b7ff;
-    color: white;
+      font-weight: medium;
+    color: #d2b7ff;
   }
   
   .header_right--nav--btn:first-child {
@@ -201,7 +202,7 @@
     row-gap: 92px;
   }
 .main_second--cards-image {
-    width: 150px;
+    width: 110px;
 }
   .main_second--cards--el {
     padding-left: 120px;
@@ -426,7 +427,7 @@
   
     .main_third--content {
       width: 100%;
-      padding-left: 15px;
+      
     }
   
     .main_third--text {
