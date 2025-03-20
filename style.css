@@ -354,6 +354,9 @@
       width: 100%;
       max-width: 450px;
     }
+    .main_third--text {
+    font-size: 29px;
+  }
   }
   
   @media screen and (max-width: 1040px) {
@@ -363,6 +366,9 @@
     .main_first img {
       width: 100%;
     }
+    .main_third--text {
+    font-size: 29px;
+  }
   }
   
   @media screen and (max-width: 740px) {
@@ -372,7 +378,10 @@
     .main_first--left {
       display: none;
     }
-  
+  .main_third--content {
+    padding: 90px;
+    gap: 50px;
+  }
     .main_first .main_container {
       justify-content: center;
     }
@@ -385,6 +394,10 @@
     .main_third--content {
       padding: 100px;
     }
+    .main_third--content {
+    margin-left: 90px;
+    gap: 50px;
+  }
   }
   
   @media screen and (max-width: 600px) {
