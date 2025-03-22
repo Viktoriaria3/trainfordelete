@@ -263,7 +263,7 @@ body {
     max-width: 100%;
     background-position: top;
     background-repeat: no-repeat;
-    background-image: URL("tulips.background");
+    background-image: URL("tulips.background.png");
   }
   .main_fourth .main_container {
     display: flex;
