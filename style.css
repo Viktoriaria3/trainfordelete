@@ -12,7 +12,6 @@ body {
 
 .header {
     padding-top: 33px;
-     position: fixed;
     margin-bottom: 108px;
   }
   
@@ -254,7 +253,7 @@ body {
   
   /* Main Fourth Section */
     .main_fourth {
-        background-image: url("Дизайн без назви (1).png");
+        background-image: url("Дизайн без назви.png");
     }
     .main_fourth .main_container {
     display: flex;
