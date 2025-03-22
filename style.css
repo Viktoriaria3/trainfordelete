@@ -254,7 +254,7 @@ body {
   /* Main Fourth Section */
   .main_fourth {
     max-width: 100%;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-image: URL("background-4.png");
     border: 6px solid #d2b7ff;
