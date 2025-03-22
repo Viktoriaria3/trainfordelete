@@ -253,8 +253,7 @@ body {
   
   /* Main Fourth Section */
     .main_fourth {
-        background-image: URL("Дизайн без назви (4).png");
-        background-repeat: no-repeat;
+        background-color: #f0e7ff;
     }
     .main_fourth .main_container {
     display: flex;
@@ -313,6 +312,9 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    background-color: #f0e7ff;
+    padding: 55px;
+    border-radius: 180px;
     max-width: 1000px;
   }
   
