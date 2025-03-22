@@ -253,7 +253,8 @@ body {
   
   /* Main Fourth Section */
     .main_fourth {
-        background-image: url("Дизайн без назви.png");
+        background-image: URL("Дизайн без назви (4).png");
+        background-repeat: no-repeat;
     }
     .main_fourth .main_container {
     display: flex;
