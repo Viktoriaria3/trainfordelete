@@ -6,6 +6,9 @@
     text-decoration: none;
     list-style-type: none;
   }
+body {
+    background-image: URL("background-header.png")
+}
 
 .header {
     padding-top: 33px;
