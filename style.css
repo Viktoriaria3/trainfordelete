@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +6,7 @@
     list-style-type: none;
   }
 body {
-    background-image: URL("Секція No.1.png");
-    background-repeat: no-repeat;
+    background-image: URL("background-header.png")
 }
 
 .header {
@@ -113,9 +111,6 @@ body {
     display: none;
   }
   @media screen and (max-width: 1030px) {
-      body {
-          background-image: URL("tablet-header.png")
-      }
     .header_right {
       display: none;
     }
@@ -126,9 +121,6 @@ body {
   }
   
   @media screen and (max-width: 740px) {
-      body {
-          background-image: URL("phone-header.png")
-      }
     .header {
       margin-bottom: 50px;
     }
@@ -260,18 +252,18 @@ body {
   
   /* Main Fourth Section */
   .main_fourth {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 335px;
-    position: relative;
-  }
-    .main_container {
     max-width: 100%;
     background-position: top;
     background-repeat: no-repeat;
-    background-image: URL("tulips.background.png");
-    padding-bottom: 35px;
+    background-image: URL("background-4.png");
+    border: 6px solid #d2b7ff;
+  }
+  .main_fourth .main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-bottom: 335px;
   }
   
   .main_fourth--title {
@@ -352,7 +344,7 @@ body {
   }
 
 @media screen and (max-width: 1070px) {
-  .main_container {
+  .main-fourth {
     background-image: URL("tulips-tablet.png");
   }
     .main_second--cards {
@@ -370,7 +362,7 @@ body {
   }
   
   @media screen and (max-width: 1040px) {
-    .main_container {
+    .main-fourth {
       background-image: URL("tulips-tablet.png");
     }
     .main_first img {
@@ -382,8 +374,8 @@ body {
   }
   
   @media screen and (max-width: 740px) {
-    .main_container  {
-      background-image: URL("tulips.background-tablet.png");
+    .main-fourth {
+      background-image: URL("tulips-tablet.png");
     }
     .main_first--left {
       display: none;
@@ -401,8 +393,8 @@ body {
   }
   
   @media screen and (max-width: 650px) {
-    .main_container  {
-      background-image: URL("tulips.background-tablet.png");
+    .main-fourth {
+      background-image: URL("tulips-tablet.png");
     }
     .main_third--content {
       padding: 100px;
@@ -428,7 +420,7 @@ body {
           font-size: 16px;
       }
     .main-fourth {
-      background-image: URL("tulips.background-tablet.png");
+      background-image: URL("tulips-tablet.png");
     }
     .main_fourth--controllers--text::after {
       display: none;
@@ -442,8 +434,8 @@ body {
             .header {
           margin-bottom: 120px;
       }
-     .main_container {
-      background-image: URL("tulips.background-phone.png");
+    .main-fourth {
+      background-image: URL("tulips-phone.png");
     }
     .main_second--cards {
       grid-template-columns: repeat(1, 1fr);
@@ -472,7 +464,7 @@ body {
             .header {
           margin-bottom: 120px;
       }
-    ..main_container  {
+    .main-fourth {
       background-image: URL("tulips-phone.png");
     }
     .main_fourth--icon {
@@ -505,7 +497,7 @@ body {
     .main_third--text {
     font-size: 22px;
   }
-    .main_container  {
+    .main-fourth {
       background-image: URL("tulips-phone.png");
     }
     .main_fourth--content {
@@ -584,6 +576,7 @@ body {
       }
     }
     
+  
   
   
 
