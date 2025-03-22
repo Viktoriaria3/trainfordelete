@@ -7,7 +7,8 @@
     list-style-type: none;
   }
 body {
-    background-image: URL("background-image.png")
+    background-image: URL("Секція No.1.png");
+    background-repeat: no-repeat;
 }
 
 .header {
