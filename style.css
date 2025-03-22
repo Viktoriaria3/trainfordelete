@@ -113,6 +113,9 @@ body {
     display: none;
   }
   @media screen and (max-width: 1030px) {
+      body {
+          background-image: URL("tablet-header.png")
+      }
     .header_right {
       display: none;
     }
@@ -123,6 +126,9 @@ body {
   }
   
   @media screen and (max-width: 740px) {
+      body {
+          background-image: URL("phone-header.png")
+      }
     .header {
       margin-bottom: 50px;
     }
@@ -257,8 +263,7 @@ body {
     max-width: 100%;
     background-position: top;
     background-repeat: no-repeat;
-    background-image: URL("background-4.png");
-    border: 6px solid #d2b7ff;
+    background-image: URL("tulips.background");
   }
   .main_fourth .main_container {
     display: flex;
