@@ -210,38 +210,38 @@ body {
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
     row-gap: 92px;
-    column-gap: 35px;
+    column-gap: 15px;
   }
 .main_second--cards-image {
     width: 65px;
 }
 .main_second--cards--el-1 {
-    border: 1px solid #222222;
+    border: 1px solid #FF9999;
     padding-left: 120px;
     padding-right: 90px;
 }
 .main_second--cards--el-2 {
-    border: 1px solid #FFCCCC;
+    border: 2px solid #FFCCCC;
     padding-left: 120px;
     padding-right: 90px;
 }
 .main_second--cards--el-3 {
-    border: 1px solid #FFFFCC;
+    border: 2px solid #FFFFCC;
     padding-left: 120px;
     padding-right: 90px;
 }
 .main_second--cards--el-4 {
-    border: 1px solid #CC99CC;
+    border: 2px solid #CC99CC;
     padding-left: 120px;
     padding-right: 90px;
 }
 .main_second--cards--el-5 {
-    border: 1px solid #CCFFCC;
+    border: 2px solid #CCFFCC;
     padding-left: 120px;
     padding-right: 90px;
 }
 .main_second--cards--el-6 {
-    border: 1px solid #FFCCCC;
+    border: 2px solid #FFCCCC;
     padding-left: 120px;
     padding-right: 90px;
 }
