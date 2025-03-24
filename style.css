@@ -111,30 +111,30 @@ body {
   .header_right--mobile--list li:first-child a::after {
     display: none;
   }
-  @media screen and (max-width: 1030px) {
-      body {
-          background-image: URL("tablet-header.png")
-      }
+@media screen and (max-width: 1030px) {
+    body {
+        background-image: URL("tablet-header.png");
+    }
+
     .header_right {
-      display: none;
+        display: none;
     }
+
     .header_right--mobile {
-      display: block;
-      cursor: pointer;
+        display: block;
     }
-  }
-  
-  @media screen and (max-width: 740px) {
+}
+
+@media screen and (max-width: 740px) {
+    body {
+        background-image: URL("phone-header.png");
+    }
+
     .header-logo {
         width: 150px;
-      }
-    .header {
-      margin-bottom: 50px;
     }
-      body {
-          background-image: URL("phone-header.png")
-      }
-  }
+}
+
 
 
 .main_container {
