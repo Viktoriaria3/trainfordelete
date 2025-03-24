@@ -6,7 +6,7 @@
     list-style-type: none;
   }
 body {
-    background-image: URL("Секція No.1.png")
+    background-image: URL("Секція No.1.png");
     background-repeat: no-repeat;
 }
 
@@ -112,6 +112,9 @@ body {
     display: none;
   }
   @media screen and (max-width: 1030px) {
+      body {
+          background-image: URL("tablet-header.png")
+      }
     .header_right {
       display: none;
     }
@@ -125,6 +128,9 @@ body {
     .header {
       margin-bottom: 50px;
     }
+      body {
+          background-image: URL("phone-header.png")
+      }
   }
 
 
