@@ -125,6 +125,9 @@ body {
   }
   
   @media screen and (max-width: 740px) {
+    .header-logo {
+        width: 150px;
+      }
     .header {
       margin-bottom: 50px;
     }
