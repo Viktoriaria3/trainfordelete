@@ -209,6 +209,7 @@ body {
     width: 65px;
 }
 .main_second--cards--el {
+    border: 1px solid #222222;
     padding-left: 120px;
     padding-right: 90px;
 }
