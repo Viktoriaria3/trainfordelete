@@ -210,15 +210,17 @@ body {
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
     row-gap: 92px;
+    column-gap: 35px;
   }
 .main_second--cards-image {
     width: 65px;
 }
-.main_second--cards--el {
+.main_second--cards--el-1 .main_second--cards--el-2 .main_second--cards--el-3 .main_second--cards--el-4 .main_second--cards--el-5 .main_second--cards--el-6 {
     border: 1px solid #222222;
     padding-left: 120px;
     padding-right: 90px;
 }
+
   
   .main_second--cards--el--text {
     margin-top: 32px;
