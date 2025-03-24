@@ -215,29 +215,9 @@ body {
 .main_second--cards-image {
     width: 65px;
 }
-.main_second--cards--el-1 {
-    border: 2px solid #CCCCFF;
-    padding: 60px;
-}
-.main_second--cards--el-2 {
-    border: 2px solid #FFCCCC;
-    padding: 60px;
-}
-.main_second--cards--el-3 {
-    border: 2px solid #FFFFCC;
-    padding: 60px;
-}
-.main_second--cards--el-4 {
-    border: 2px solid #CC99CC;
-    padding: 60px;
-}
-.main_second--cards--el-5 {
-    border: 2px solid #CCFFCC;
-    padding: 60px;
-}
-.main_second--cards--el-6 {
-    border: 2px solid #FFCCCC;
-    padding: 60px;
+.main_second--cards--el {
+    padding-left: 120px;
+    padding-right: 90px
 }
   
   .main_second--cards--el--text {
