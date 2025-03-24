@@ -210,7 +210,6 @@ body {
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
     row-gap: 92px;
-    column-gap: 15px;
   }
 .main_second--cards-image {
     width: 65px;
