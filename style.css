@@ -218,31 +218,43 @@ body {
 .main_second--cards--el-1 {
     border: 1px solid #FF9999;
     padding-left: 120px;
+    padding-top: 60px;
+    padding-bottom: 60px
     padding-right: 90px;
 }
 .main_second--cards--el-2 {
     border: 2px solid #FFCCCC;
     padding-left: 120px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     padding-right: 90px;
 }
 .main_second--cards--el-3 {
     border: 2px solid #FFFFCC;
     padding-left: 120px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     padding-right: 90px;
 }
 .main_second--cards--el-4 {
     border: 2px solid #CC99CC;
     padding-left: 120px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     padding-right: 90px;
 }
 .main_second--cards--el-5 {
     border: 2px solid #CCFFCC;
     padding-left: 120px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     padding-right: 90px;
 }
 .main_second--cards--el-6 {
     border: 2px solid #FFCCCC;
     padding-left: 120px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     padding-right: 90px;
 }
   
