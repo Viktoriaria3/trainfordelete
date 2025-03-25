@@ -475,9 +475,6 @@ body {
    .main_first img {
       width: 100%;
     }
-    .main_third--text {
-    font-size: 15px;
-  }
     .main_third--content {
       width: 100%;
       
@@ -497,21 +494,31 @@ body {
        .main_first img {
       width: 100%;
     }
+    .main_second--cards--el {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .main_second--cards {
+        column-gap: 10px;
+    }
     .main_third--text {
     font-size: 12px;
   }
     .main_third--text {
     font-size: 22px;
   }
+    .main-third-content {
+        margin-left: 0;
+    }
        .main_first img {
       width: 100%;
     }
     .main_third--text {
     font-size: 12px;
   }
-          .main_first--title {
-          margin-bottom: 20px;
-        font-size: 22px
+    .main_first--title {
+        margin-bottom: 20px;
+        font-size: 19px
     }
   }
   
@@ -520,8 +527,8 @@ body {
           margin-bottom: 120px;
       }
         .main_first--title {
-      margin-bottom: 20px;
-        font-size: 22px
+        margin-bottom: 20px;
+        font-size: 16px
     }
        .main_first img {
       width: 100%;
@@ -533,8 +540,18 @@ body {
       padding-top: 200px;
       padding-bottom: 100px;
     }
+    .main_second--cards {
+        column-gap: 10px;
+    }
+    .main_second--cards--el {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
     .main_third {
       margin-bottom: 106px;
+    }
+    .main-third-content {
+        margin-left: 0;
     }
     .main_third--text {
     font-size: 22px;
