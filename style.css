@@ -515,6 +515,9 @@ main_fourth--controllers--tex
   }
   
   @media screen and (max-width: 336px) {
+        .header {
+          margin-bottom: 120px;
+      }
         .main_first--title {
         margin-bottom: 20px;
         font-size: 16px
