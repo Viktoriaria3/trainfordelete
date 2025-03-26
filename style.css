@@ -37,7 +37,6 @@ body {
     font-weight: 400;
     font-size: 24px;
     line-height: 100%;
-    letter-spacing: 0%;
     color: black;
 }
 
@@ -121,30 +120,6 @@ header li:first-child .header_right--nav--link::after {
     display: none;
 }
 
-@media screen and (max-width: 1030px) {
-    body {
-        background-image: URL("tablet-header.png");
-    }
-
-    .header_right {
-        display: none;
-    }
-
-    .header_right--mobile {
-        display: block;
-    }
-}
-
-@media screen and (max-width: 740px) {
-    body {
-        background-image: URL("phone-header.png");
-    }
-
-    .header-logo {
-        width: 150px;
-    }
-}
-
 @media screen and (max-width: 1070px) {
     .main_second--cards {
         display: grid;
@@ -157,7 +132,163 @@ header li:first-child .header_right--nav--link::after {
     }
 
     .main_third--text {
-       
+        font-size: 26px;
+    }
+
+    .main_fourth--content {
+        padding: 37px 10px 27px 36px;
+    }
+
+    .main_third--content {
+        padding: 90px;
+        gap: 50px;
+    }
+
+    .main_second--cards--el {
+        padding-left: 42px;
+        padding-right: 60px;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .main_first--title {
+        font-size: 42px;
+    }
+
+    .main_second--cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .main_first--btn {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    .main_third--content {
+        padding: 50px;
+        gap: 35px;
+    }
+
+    .main_second--cards--el {
+        padding-left: 42px;
+        padding-right: 60px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    body {
+        background-image: URL("phone-header.png");
+    }
+
+    .header-logo {
+        width: 150px;
+    }
+
+    .main_first--title {
+        font-size: 36px;
+        margin-bottom: 52px;
+    }
+
+    .main_second--cards {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .main_first--btn {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .main_second--cards--el {
+        padding-left: 42px;
+        padding-right: 42px;
+    }
+
+    .main_third--text {
+        font-size: 19px;
+    }
+
+    .main_fourth--content {
+        padding: 37px 10px 27px 36px;
+    }
+
+    .main_third--content {
+        padding: 90px;
+        gap: 50px;
+    }
+
+    .main_second--cards--el {
+        padding-left: 42px;
+        padding-right: 60px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .main_first--title {
+        font-size: 36px;
+        margin-bottom: 52px;
+    }
+
+    .main_first--btn {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .main_second--cards--el {
+        padding-left: 42px;
+        padding-right: 42px;
+    }
+
+    .main_third--text {
+        font-size: 26px;
+    }
+
+    .footer_container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .main_first--title {
+        font-size: 36px;
+        margin-bottom: 52px;
+    }
+
+    .main_second--cards--el {
+        padding-left: 42px;
+        padding-right: 42px;
+    }
+
+    .main_third--content {
+        padding: 100px;
+    }
+
+    .main_second--cards--el {
+        padding-left: 42px;
+        padding-right: 60px;
+    }
+
+    .main_third--text {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 1286px) {
+    .footer_container {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
 
   
   
