@@ -85,6 +85,13 @@ body {
   .header_right--mobile {
     display: none;
   }
+.header-list {
+    display: none;
+}
+
+.header-list.active {
+    display: block;
+}
   
   .header_right--mobile--list {
     position: fixed;
