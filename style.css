@@ -423,11 +423,10 @@ body {
         font-size: 34px;
         margin-bottom: 52px;
       }
-      main_second--cards {
-        grid-template-columns: repeat(2, 1fr);
-        padding: 10px;
-        gap: 60px;
-    }
+    .main_second--cards--el {
+    padding-left: 120px;
+    padding-right: 30px;
+}
     .main_fourth--content {
     padding: 37px 10px 27px 36px;
     {
