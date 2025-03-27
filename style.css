@@ -445,6 +445,8 @@ body {
     font-size: 16px;
   }
     .main_fourth--content {
+    position: relative;
+    left: 30px;
     padding: 37px 10px 27px 36px;
     {
         .main_first--title {
@@ -534,7 +536,10 @@ body {
     .main_fourth--content {
         padding: 37px 10px 27px 36px;
     {
-      .main_second--cards {
+    .main_fourth--content-text {
+        font-size: 18px;
+    }
+    .main_second--cards {
         position: relative;
         left: 60px;
         gap: 50px;
@@ -597,11 +602,15 @@ body {
     .main_third--text {
     font-size: 22px;
   }
+    .main_fourth--content-text {
+    font-size: 16px;
+    max-width: 230px;
+}
     .main_fourth--content {
       padding: 47px 30px 37px 15px;
     }
   }
-  .footer {
+        .footer {
     padding-top: 130px;
     padding-bottom: 70px;
   }
