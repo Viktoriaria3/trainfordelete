@@ -343,7 +343,7 @@ body {
     .main_first--title {
         font-size: 42px;
     }
-    .main_first img {
+    .main_first-img {
       width: 100%;
     }
     .main_third--text {
@@ -352,8 +352,15 @@ body {
   }
   
   @media screen and (max-width: 740px) {
-    .main_first img {
-      width: 100%;
+    .main_first .main-container {
+          display: block;
+      }
+    .main_first-img {
+      padding-left: 100px;
+      width: 450px;
+    }
+    .main_first--right {
+          padding-left: 52px;
     }
     .main_third--text {
     font-size: 19px;
@@ -381,27 +388,27 @@ body {
       .main_first--right {
           padding-left: 52px;
       }
-     .main_first img {
-    padding-left: 100px;
-      width: 450px;
+     .main_first-img {
+          padding-left: 100px; 
+          width: 450px;
     }
     .main_third--text {
-    font-size: 16px;
-    margin-bottom: 32px;
+         font-size: 16px;
+         margin-bottom: 32px;
   }
     .main_third--content {
-      padding: 100px;
+         padding: 100px;
     }
     .main_first--title {
         font-size: 36px;
         margin-bottom: 52px;
       }
     .main_fourth--content {
-    padding: 37px 10px 27px 36px;
+        padding: 37px 10px 27px 36px;
     {
     .main_second--cards--el {
-    padding-left: 42px;
-    padding-right: 60px;
+        padding-left: 42px;
+        padding-right: 60px;
 }
     .main_third--content {
     margin-left: 90px;
@@ -413,6 +420,16 @@ body {
   }
   
   @media screen and (max-width: 600px) {
+       .main_first .main-container {
+          display: block;
+      }
+      .main_first--right {
+          padding-left: 52px;
+      }
+     .main_first-img {
+          padding-left: 100px; 
+          width: 450px;
+    }
     .main_third--text {
     font-size: 16px;
   }
@@ -431,6 +448,16 @@ body {
     .header {
           margin-bottom: 120px;
       }
+       .main_first .main-container {
+          display: block;
+      }
+      .main_first--right {
+          padding-left: 52px;
+      }
+     .main_first-img {
+          padding-left: 100px; 
+          width: 450px;
+    }
     .main_second--cards {
       grid-template-columns: repeat(2, 1fr);
         column-gap: 30px;
@@ -442,18 +469,18 @@ body {
         font-size: 19px;
     {
         .main_fourth--content {
-    padding: 37px 10px 27px 36px;
+        padding: 37px 10px 27px 36px;
     {
    .main_first--title {
           font-size: 36px;
           margin-bottom: 52px;
       }
     .main_third--content {
-      width: 100%;
+          width: 100%;
       
     }
     .main_third--text {
-      font-size: 16px;
+         font-size: 16px;
     }
   }
   
@@ -513,9 +540,6 @@ body {
     .main_first--title {
         margin-bottom: 20px;
         font-size: 16px
-    }
-    .main_first img {
-      width: 100%;
     }
     .main_third--text {
     font-size: 12px;
