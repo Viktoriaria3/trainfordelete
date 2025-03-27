@@ -140,6 +140,10 @@ body {
     .header-logo {
         width: 150px;
     }
+    header_right--mobile {
+        padding-left: 320px;
+        display: block;
+    }
 }
 
 
@@ -419,13 +423,14 @@ body {
         font-size: 34px;
         margin-bottom: 52px;
       }
+      main_second--cards {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10px;
+        gap: 60px;
+    }
     .main_fourth--content {
     padding: 37px 10px 27px 36px;
     {
-    .main_second--cards--el {
-    padding-left: 42px;
-    padding-right: 60px;
-}
     .main_third--content {
     margin-left: 90px;
     gap: 50px;
@@ -529,10 +534,11 @@ body {
     .main_fourth--content {
         padding: 37px 10px 27px 36px;
     {
-    .main_second--cards--el {
-       .main_second--cards--el {
-        padding-left: 68px;
-        padding-right: 0px;
+      .main_second--cards {
+        position: relative;
+        left: 60px;
+        gap: 50px;
+    }
     }
     .main_second--cards {
         column-gap: 10px;
@@ -578,13 +584,9 @@ body {
       padding-bottom: 100px;
     }
     .main_second--cards {
-        column-gap: 10px;
-    }
-    .main_second--cards--el {
-       .main_second--cards--el {
-        padding-left: 100px;
-        padding-right: 0px;
-}
+       position: relative;
+        left: 120px;
+        gap: 50px;
     }
     .main_third {
       margin-bottom: 106px;
