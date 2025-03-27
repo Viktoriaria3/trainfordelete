@@ -360,19 +360,19 @@ body {
   
   @media screen and (max-width: 740px) {
       .header {
-          margin-bottom: 0px;
+          margin-bottom: 120px;
       }
-      .main_first--right {
-        padding-left: 52px;
-    }
-    .main_container .main_first {
-        display: block;
-    }
     .main_first-img {
-      width: 100%;
+      width: 320px;
     }
       .main-first--title {
           margin-bottom: 32px;
+          margin-bottom: 35px;
+      }
+      .main_first--btn {
+          width: 100%;
+        max-width: 450px;
+        font-size: 26px;
       }
     .main_third--text {
     font-size: 19px;
@@ -394,12 +394,21 @@ body {
   }
   
   @media screen and (max-width: 650px) {
-      .main_container .main_first {
-          display: block;
+      .header {
+          margin-bottom: 120px;
       }
-     .main_first-img {
-      width: 100%;
+    .main_first-img {
+      width: 320px;
     }
+      .main-first--title {
+          margin-bottom: 32px;
+          margin-bottom: 35px;
+      }
+      .main_first--btn {
+          width: 100%;
+        max-width: 450px;
+        font-size: 26px;
+      }
     .main_third--text {
     font-size: 16px;
   }
@@ -427,9 +436,6 @@ body {
   }
   
   @media screen and (max-width: 600px) {
-       .main_first-img {
-      width: 100%;
-    }
     .main_third--text {
     font-size: 16px;
   }
@@ -440,18 +446,20 @@ body {
           font-size: 36px;
           margin-bottom: 52px;
       }
-      .header {
-          margin-bottom: 0px;
+     .header {
+          margin-bottom: 120px;
       }
-        .main_container .main_first {
-            display: flex;
-        }
-        .main_first--title {
-        margin-bottom: 20px;
-        font-size: 16px
+    .main_first-img {
+      width: 320px;
     }
+      .main-first--title {
+          margin-bottom: 32px;
+          margin-bottom: 35px;
+      }
       .main_first--btn {
-          font-size: 16px;
+          width: 100%;
+        max-width: 450px;
+        font-size: 26px;
       }
     .main_third--text {
     font-size: 26px;
@@ -459,20 +467,20 @@ body {
   }
   
   @media screen and (max-width: 530px) {
-    .header {
-          margin-bottom: 0px;
+        .header {
+          margin-bottom: 120px;
       }
-    .main_first--right {
-        padding-left: 22px;
-    }
-    .main_container .main_first{
-        display: block;
-    }
     .main_first-img {
-      width: 350px;
+      width: 270px;
     }
-    .main-first--title {
-          margin-bottom: 32px;
+      .main-first--title {
+          margin-bottom: 28px;
+          margin-bottom: 35px;
+      }
+      .main_first--btn {
+        width: 100%;
+        max-width: 450px;
+        font-size: 26px;
       }
     .main_second--cards {
       grid-template-columns: repeat(2, 1fr);
@@ -487,10 +495,6 @@ body {
         .main_fourth--content {
     padding: 37px 10px 27px 36px;
     {
-   .main_first--title {
-          font-size: 36px;
-          margin-bottom: 52px;
-      }
     .main_third--content {
       width: 100%;
       
@@ -505,25 +509,19 @@ body {
       display: none;
     }
         .header {
-          margin-bottom: 0px;
+          margin-bottom: 120px;
       }
-    .main_first--right {
-        padding-left: 22px;
-    }
-    .main_container .main_first {
-        display: block;
-    }
     .main_first-img {
-      width: 350px;
+      width: 190px;
     }
+      .main-first--title {
+          margin-bottom: 22px;
+          margin-bottom: 35px;
+      }
       .main_first--btn {
-        width: 100%;
-        font-size: 26px;
-        max-width: 350px;
-    }
-     .main_first--title {
-          font-size: 36px;
-          margin-bottom: 52px;
+          width: 100%;
+        max-width: 450px;
+        font-size: 22px;
       }
     .main_fourth--content {
     padding: 37px 10px 27px 36px;
@@ -553,9 +551,6 @@ body {
         .header {
           margin-bottom: 120px;
       }
-      .main_container .main_first {
-          display: flex;
-      }
         .main_first--title {
         margin-bottom: 20px;
         font-size: 28px;
@@ -566,7 +561,7 @@ body {
         max-width: 250px;
       }
        .main_first-img {
-      width: 250px;
+      display: none;
     }
     .main_third--text {
     font-size: 12px;
