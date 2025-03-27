@@ -394,7 +394,7 @@ body {
   }
   
   @media screen and (max-width: 650px) {
-     .main_first img {
+     .main_first-img {
       width: 100%;
     }
     .main_third--text {
@@ -404,7 +404,7 @@ body {
       padding: 100px;
     }
     .main_first--title {
-        font-size: 36px;
+        font-size: 34px;
         margin-bottom: 52px;
       }
     .main_fourth--content {
