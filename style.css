@@ -207,7 +207,10 @@ body {
     flex-direction: column;
     align-items: center;
   }
-  
+  .main_second--cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 120px;
   .main_second--title {
     font-family: 'Montserrat', 'sans-serif';
     font-weight: 400;
@@ -217,18 +220,9 @@ body {
     color: black;
     margin-bottom: 139px;
   }
-  
-  .main_second--cards {
-   display: flex;
-  }
-.main_second--cards-image {
-    width: 65px;
-}
 .main_second--cards--el {
      flex-grow: 1;
-     flex-basis: 200;
 }
-  
   .main_second--cards--el--text {
     margin-top: 32px;
     font-family: 'Montserrat', 'sans-serif';
@@ -506,12 +500,10 @@ body {
         max-width: 450px;
         font-size: 22px;
       }
-    .main_fourth--content {
-        padding: 37px 10px 27px 36px;
-    {
-    .main_fourth--content-text {
-        font-size: 18px;
-    }
+      .main_second--cards--el--text {
+    font-size: 16px;
+    max-width: 132px;
+        {
     .main_third--text {
     font-size: 12px;
   }
@@ -524,6 +516,12 @@ body {
     .main_third--text {
     font-size: 12px;
   }
+       .main_fourth--content {
+        padding: 37px 10px 27px 36px;
+    {
+    .main_fourth--content-text {
+        font-size: 18px;
+    }
 }
   
   @media screen and (max-width: 336px) {
@@ -542,6 +540,10 @@ body {
        .main_first-img {
       display: none;
     }
+      .main_second--cards--el--text {
+    font-size: 16px;
+    max-width: 132px;
+        {
     .main_third--text {
     font-size: 12px;
   }
