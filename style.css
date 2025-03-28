@@ -388,10 +388,10 @@ body {
     padding: 90px;
     gap: 50px;
   }
-    .main_second--cards--el {
-    padding-left: 42px;
-    padding-right: 60px;
-}
+    .main_second--cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
     .main_third--text {
     font-size: 26px;
   }
@@ -423,10 +423,10 @@ body {
         font-size: 34px;
         margin-bottom: 52px;
       }
-    .main_second--cards--el {
-    padding-left: 120px;
-    padding-right: 30px;
-}
+     .main_second--cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
     .main_fourth--content {
     padding: 37px 10px 27px 36px;
     {
@@ -467,10 +467,10 @@ body {
         max-width: 450px;
         font-size: 26px;
       }
-        .main_second--cards--el {
-        position: relative;
-        left: 50px;
-        }
+          .main_second--cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
     .main_third--text {
     font-size: 26px;
   }
@@ -492,16 +492,12 @@ body {
         max-width: 450px;
         font-size: 26px;
       }
-    .main_second--cards {
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 30px;
-        }
-      .main_second--cards--el {
-        padding-left: 60px;
-        padding-right: 20px;
-}
+        .main_second--cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
       .main_second--cards-image {
-        width: 48px;
+        width: 32px;
     }
     .main_second--cards--el--text {
         font-size: 19px;
@@ -542,16 +538,13 @@ body {
     .main_fourth--content-text {
         font-size: 18px;
     }
-    .main_second--cards--el {
-        margin-left: 90px;
-    {
+        
     .main_second--cards {
-        position: relative;
-        left: 30px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
     }
-}
-    .main_second--cards {
-        column-gap: 10px;
+      .main_second--cards-image {
+        width: 32px;
     }
     .main_third--text {
     font-size: 12px;
@@ -589,17 +582,14 @@ body {
     .main_fourth--content {
     padding: 37px 10px 27px 36px;
     {
-    .main_second {
-      padding-top: 200px;
-      padding-bottom: 100px;
+   
+        .main_second--cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
     }
-    .main_second--cards {
-        position: relative;
-        left: 60px;
+      .main_second--cards-image {
+        width: 32px;
     }
-    .main_second--cards--el {
-        margin-left: 60px;
-
     .main_third {
       margin-bottom: 106px;
     }
@@ -617,7 +607,7 @@ body {
       padding: 47px 30px 37px 15px;
     }
 }
-        .footer {
+    .footer {
     padding-top: 130px;
     padding-bottom: 70px;
   }
