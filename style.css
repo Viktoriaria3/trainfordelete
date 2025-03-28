@@ -219,18 +219,14 @@ body {
   }
   
   .main_second--cards {
-    display: grid;
-    text-align: center;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: space-between;
-    row-gap: 92px;
+   display: flex;
   }
 .main_second--cards-image {
     width: 65px;
 }
 .main_second--cards--el {
-    padding-left: 120px;
-    padding-right: 90px
+     flex-grow: 1;
+     flex-basis: 200;
 }
   
   .main_second--cards--el--text {
@@ -388,10 +384,6 @@ body {
     padding: 90px;
     gap: 50px;
   }
-    .main_second--cards {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-    }
     .main_third--text {
     font-size: 26px;
   }
@@ -423,10 +415,6 @@ body {
         font-size: 34px;
         margin-bottom: 52px;
       }
-     .main_second--cards {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-    }
     .main_fourth--content {
     padding: 37px 10px 27px 36px;
     {
@@ -467,10 +455,6 @@ body {
         max-width: 450px;
         font-size: 26px;
       }
-          .main_second--cards {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-    }
     .main_third--text {
     font-size: 26px;
   }
@@ -492,19 +476,9 @@ body {
         max-width: 450px;
         font-size: 26px;
       }
-        .main_second--cards {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-    }
-      .main_second--cards-image {
-        width: 32px;
-    }
-    .main_second--cards--el--text {
-        font-size: 19px;
-    {
         .main_fourth--content {
         padding: 37px 10px 27px 36px;
-    {
+        }
     .main_third--content {
       width: 100%;
     }
@@ -538,14 +512,6 @@ body {
     .main_fourth--content-text {
         font-size: 18px;
     }
-        
-    .main_second--cards {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-    }
-      .main_second--cards-image {
-        width: 32px;
-    }
     .main_third--text {
     font-size: 12px;
   }
@@ -558,7 +524,7 @@ body {
     .main_third--text {
     font-size: 12px;
   }
-  }
+}
   
   @media screen and (max-width: 336px) {
         .header {
@@ -581,14 +547,6 @@ body {
   }
     .main_fourth--content {
     padding: 37px 10px 27px 36px;
-    {
-   
-        .main_second--cards {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-    }
-      .main_second--cards-image {
-        width: 32px;
     }
     .main_third {
       margin-bottom: 106px;
