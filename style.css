@@ -86,7 +86,7 @@ header li:first-child .header_right--nav--link::after {
   top: 0;
   height: 100vh;
   width: 250px;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   background-color: #d2b7ff;
@@ -100,6 +100,10 @@ header li:first-child .header_right--nav--link::after {
   flex-direction: column;
   align-items: center;
   gap: 20px;
+}
+
+.header_right--mobile--list.active {
+    display: block;
 }
 
 .header_right--mobile--list li:first-child a::after {
