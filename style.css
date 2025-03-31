@@ -127,7 +127,7 @@ header li:first-child .header_right--nav--link::after {
 
 @media screen and (max-width: 740px) {
   .header {
-    margin-bottom: 50px;
+    margin-bottom: 120px;
   }
 }
 
@@ -359,13 +359,13 @@ header li:first-child .header_right--nav--link::after {
   .main_first--left {
     display: none;
   }
-
+ .main_first--title {
+        margin-bottom: 36px;
+        font-size: 36px;
+        padding-left: 20px;
+    }
   .main_first .main_container {
     justify-content: center;
-  }
-
-  .main_first--title {
-    margin-bottom: 20px;
   }
 }
 
@@ -374,12 +374,10 @@ header li:first-child .header_right--nav--link::after {
     background-image: URL("phone-header.png");
     background-size: auto;
   }
-  .header {
-        margin-bottom: 120px;
-  }
   .main_first--title {
         margin-bottom: 36px;
-        font-size: 32px;
+        font-size: 36px;
+        padding-left: 20px;
     }
    .main_third--content {
     padding: 100px;
