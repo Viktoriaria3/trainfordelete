@@ -5,6 +5,11 @@
   text-decoration: none;
   list-style-type: none;
 }
+
+body {
+  background-image: url("image-header-one.png");
+  background-repeat: no-repeat;
+}
 .header {
   padding-top: 33px;
   margin-bottom: 100px;
@@ -156,7 +161,7 @@ header li:first-child .header_right--nav--link::after {
   background-color: #f0e7ff;
   cursor: pointer;
   border: 0;
-  font-family: Montserrat;
+  font-family: 'Montserrat', 'sans-serif';
   font-weight: 400;
   font-size: 42px;
   line-height: 100%;
@@ -241,11 +246,11 @@ header li:first-child .header_right--nav--link::after {
 
 .main_third--text {
   font-family: 'Montserrat', 'sans-serif';
-  font-weight: 400;
-  font-size: 42px;
+  font-weight: normal;
+  font-size: 32px;
   line-height: 100%;
   letter-spacing: 0.25%;
-  color: black;
+  color: #6d6082;
 }
 
 /* Main Fourth Section */
@@ -304,6 +309,9 @@ header li:first-child .header_right--nav--link::after {
   margin-top: 24px;
   display: flex;
   justify-content: space-between;
+  background-color: #faf7ff;
+  padding: 60px;
+  border-radius: 180px;
   width: 100%;
   max-width: 1000px;
 }
@@ -336,15 +344,16 @@ header li:first-child .header_right--nav--link::after {
 .main_fourth--first--flower {
   position: absolute;
   left: 0;
-  bottom: 0;
 }
 
 .main_fourth--second--flower {
   position: absolute;
   right: 0;
-  bottom: 0;
 }
 @media screen and (max-width: 1070px) {
+  body {
+    background-image: URL("tablet-header.png")
+  }
   .main_second--cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -377,6 +386,9 @@ header li:first-child .header_right--nav--link::after {
 }
 
 @media screen and (max-width: 650px) {
+  body {
+    background-image: URL("phone-header.png");
+  }
   .main_third--content {
     padding: 100px;
   }
