@@ -206,12 +206,15 @@ header li:first-child .header_right--nav--link::after {
   flex-direction: column;
   align-items: center;
 }
+.main-second--cards--image {
+  width: 110px;
+}
 
 .main_second--cards--el--text {
   margin-top: 32px;
-  font-family: Montserrat;
+  font-family: 'Montserrat', 'sans-serif';
   font-weight: 400;
-  font-size: 32px;
+  font-size: 22px;
   line-height: 100%;
   color: black;
   letter-spacing: 0.25%;
@@ -237,7 +240,7 @@ header li:first-child .header_right--nav--link::after {
 }
 
 .main_third--text {
-  font-family: Montserrat;
+  font-family: 'Montserrat', 'sans-serif';
   font-weight: 400;
   font-size: 42px;
   line-height: 100%;
@@ -255,7 +258,7 @@ header li:first-child .header_right--nav--link::after {
 }
 
 .main_fourth--title {
-  font-family: Montserrat;
+  font-family: 'Montserrat', 'sans-serif';
   font-weight: 400;
   font-size: 42px;
   line-height: 100%;
@@ -272,7 +275,7 @@ header li:first-child .header_right--nav--link::after {
 }
 
 .main_fourth--content--title {
-  font-family: Montserrat;
+  font-family: 'Montserrat', 'sans-serif';
   font-weight: 400;
   font-size: 32px;
   line-height: 100%;
@@ -288,7 +291,7 @@ header li:first-child .header_right--nav--link::after {
 }
 
 .main_fourth--content-text {
-  font-family: Montserrat;
+  font-family: 'Montserrat 'sans-serif'';
   font-weight: 400;
   font-size: 26px;
   line-height: 100%;
@@ -453,7 +456,7 @@ header li:first-child .header_right--nav--link::after {
 }
 
 .footer_right--part--title {
-  font-family: Poppins;
+  font-family: 'Poppins 'sans-serif'';
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -462,7 +465,7 @@ header li:first-child .header_right--nav--link::after {
 }
 
 .footer_right--part--links--item {
-  font-family: Poppins;
+  font-family: 'Poppins', 'sans-serif';
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
