@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url("background-image.png");
+  background-image: url("background-header.png");
   background-repeat: no-repeat;
 }
 .header {
@@ -149,7 +149,7 @@ header li:first-child .header_right--nav--link::after {
   font-size: 48px;
   line-height: 100%;
   letter-spacing: 0.25%;
-  color: #2b2b2b;;
+  color: #4e4e4e;
   max-width: 462px;
   margin-bottom: 92px;
 }
@@ -316,31 +316,6 @@ header li:first-child .header_right--nav--link::after {
   max-width: 1000px;
 }
 
-.main_fourth--controllers--text {
-  display: flex;
-  align-items: center;
-  font-family: Montserrat;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 100%;
-  letter-spacing: 0.25%;
-  color: black;
-}
-
-.main_fourth--controllers--text::after {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 409px;
-  height: 1px;
-  background-color: black;
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-}
-
 .main_fourth--first--flower {
   position: absolute;
   left: 0;
@@ -352,13 +327,22 @@ header li:first-child .header_right--nav--link::after {
 }
 @media screen and (max-width: 1070px) {
   body {
-    background-image: URL("tablet-header.png")
+    background-image: URL("tablet-header.png");
+    background-size: auto;
   }
   .main_second--cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-
+  .main_fourth--title {
+      color: #a194b7;
+  }
+.main_fourth--first--flower {
+  display: none;
+}
+  .main_fourth--second--flower {
+  display: none;
+}
   .main_first--btn {
     width: 100%;
     max-width: 450px;
@@ -388,10 +372,27 @@ header li:first-child .header_right--nav--link::after {
 @media screen and (max-width: 650px) {
   body {
     background-image: URL("phone-header.png");
+    background-size: auto;
   }
-  .main_third--content {
+  .header {
+        margin-bottom: 120px;
+  }
+  .main_first--title {
+        margin-bottom: 36px;
+        font-size: 32px;
+    }
+   .main_third--content {
     padding: 100px;
   }
+  .main_fourth--title {
+      color: #a194b7;
+  }
+  .main_fourth--first--flower {
+  display: none;
+}
+  .main_fourth--second--flower {
+  display: none;
+}
 }
 
 @media screen and (max-width: 600px) {
@@ -436,6 +437,9 @@ header li:first-child .header_right--nav--link::after {
   }
   .main_third {
     margin-bottom: 106px;
+  }
+  .main_fourth--title {
+      color: #a194b7;
   }
   .main_fourth--content {
     padding: 47px 30px 37px 15px;
