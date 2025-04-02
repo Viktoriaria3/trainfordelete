@@ -296,7 +296,7 @@ header li:first-child .header_right--nav--link::after {
 }
 
 .main_fourth--content-text {
-  font-family: 'Montserrat 'sans-serif'';
+  font-family: 'Montserrat', 'sans-serif';
   font-weight: 400;
   font-size: 26px;
   line-height: 100%;
